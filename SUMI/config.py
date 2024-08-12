@@ -13,10 +13,10 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "awoo"  # integer value, dont use ""
-    API_HASH = "awoo"
+    API_ID = "24074986"  # integer value, dont use ""
+    API_HASH = "f4f6272a85d0e50e39a24cb378be118d"
     TOKEN = (
-        "awoo"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+        "7118713344:AAEqtTMQQTAFcAj35hk_iYLkfU-lQJDIbuY"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     )
     OWNER_ID = 5348193047  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "King_of_Ghoul"
@@ -29,7 +29,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://rkffvakt:o7mkbX8hS7h5IPhMyPHSteGaWvuDYOp-@surus.db.elephantsql.com/rkffvakt"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
